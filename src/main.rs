@@ -1,12 +1,15 @@
 #![feature(proc_macro_hygiene, decl_macro)]
 
-#[macro_use] extern crate rocket;
+#[macro_use]
+extern crate rocket;
+extern crate bson;
+extern crate mongodb;
 
 #[get("/")]
 fn index() -> &'static str {
-    "Hello, world!"
+	"Hello, world!"
 }
 
 fn main() {
-    rocket::ignite().mount("/", routes![index]).launch();
+	rocket::ignite().mount("/", routes![index]).launch();
 }

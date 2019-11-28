@@ -8,3 +8,5 @@ edition = "2018"
 
 [dependencies]
 rocket = "0.4.2"
+bson = "0.14.0"
+mongodb = "0.4.0"
