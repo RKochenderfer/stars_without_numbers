@@ -18,6 +18,13 @@
 }
 
 .menu-options {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.menu-options:hover {
+    background-color: rgba(0,0,0,0.2);
 }
