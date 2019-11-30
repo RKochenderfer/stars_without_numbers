@@ -1,7 +1,7 @@
 window.onload = () => {
 	var homeSection = document.getElementById('home')
 	var gmSection = document.getElementById('gm-screen')
-	var characterSection = document.getElementById('character-sheet')
+	var characterSection = document.getElementById('character-section')
 	var handbookSection = document.getElementById('handbook')
 	var joinSection = document.getElementById('join-game')
 	var startSection = document.getElementById('start-game')

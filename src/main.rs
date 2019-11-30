@@ -2,8 +2,6 @@
 
 #[macro_use]
 extern crate rocket;
-extern crate bson;
-extern crate mongodb;
 
 use rocket_contrib::serve::StaticFiles;
 

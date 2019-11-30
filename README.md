@@ -3,14 +3,14 @@ The app can be locally hosted on a computer where users can connect to their loc
 
 ## App Sections
 
-### Character Sheets
-The character sheets will be based on the original ones given by the designers of the game
-
 ### Rule Book
 An attempt will be made to hopefully put most of the rules in teh game. Hopefully, most of it can be copied from various sources from around the web to avoid us from having to do all the typing.
 
 ### GM Screen
 There will be a screen dedicated to only the GM. Maybe allow them to password lock the session. Will allow the GM to take various notes as well as have a section where the can keep track of each encounter
+
+### Character section
+Currently the plan is to write all the character sheets to the hosts documents folder. This way there is no need to use a server to hold all the information on one computer.
 
 ## Notes
 1. The first section that should be completed is the character section of the app
