@@ -9,17 +9,19 @@
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
     text-align: center;
+    background-color: rgba(236, 235, 235, 0.76);
+    z-index: 100;
 }
 
 .container {
-    padding: 2px 16px;
+    padding: 5px 10px;
 }
 
 .menu-options {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin: 0;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
