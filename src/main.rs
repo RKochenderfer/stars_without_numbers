@@ -5,11 +5,6 @@ extern crate rocket;
 
 use rocket_contrib::serve::StaticFiles;
 
-#[get("/")]
-fn index() -> &'static str {
-	"Hello, world!"
-}
-
 fn main() {
 	rocket::ignite()
 		.mount("/", StaticFiles::from("frontend"))

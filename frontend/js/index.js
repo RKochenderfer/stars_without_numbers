@@ -25,4 +25,8 @@ window.onload = () => {
 		homeSection.style.display = 'none'
 		characterSection.style.display = 'block'
 	}
+
+	document.getElementById('create-character-btn').onclick = () => {
+		
+	}
 }

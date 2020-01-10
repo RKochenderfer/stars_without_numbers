@@ -25,6 +25,7 @@
     margin: 0;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 .menu-options:hover {
